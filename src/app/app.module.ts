@@ -9,11 +9,6 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { WidgetComponent } from './widget/widget.component';
 import { ApproveComponent } from './approve/approve.component';
-import { RequestManagementComponent } from './request-management/request-management.component';
-import { HttpClientModule } from '@angular/common/http';
-import { UserProfileComponent } from './user-profile/user-profile.component';
-import { ReportEmployeeComponent } from './report-employee/report-employee.component';
-import { ImportTimeAttendantComponent } from './import-time-attendant/import-time-attendant.component';
 
 @NgModule({
   declarations: [
@@ -23,12 +18,7 @@ import { ImportTimeAttendantComponent } from './import-time-attendant/import-tim
     FooterComponent,
     HomeComponent,
     WidgetComponent,
-    ApproveComponent,
-    RequestManagementComponent,
-    UserProfileComponent,
-    ReportEmployeeComponent,
-    ImportTimeAttendantComponent,
-    
+    ApproveComponent
   ],
   imports: [
     BrowserModule,
